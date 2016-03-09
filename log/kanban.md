@@ -1,19 +1,19 @@
 
 
-| To Do | In Progress | Done
-|:
-| setup development server @jdjak  | | |
-| explore open data [standards](http://www.w3.org/TR/dwbp/) | | |
-| explore existing [Serbia datasets](http://hakaton.rs/podaci-koji-su-trenutno-otvoreni/) | | |
-| explore existing [France datasets](http://www.data.gouv.fr/en/datasets/) | | |
-| explore existing [Serbia portal](http://opendata.rs) | | |
-| explore existing [France portal](http://www.data.gouv.fr) | | |
-| explore existing [Luxembourg portal](http://www.etat.public.lu/fr/index.php) | | |
-| create draft version of the portal | | ||
+To Do | In Progress | Done
+------|-------------|-----
+setup development server @jdjak ||
+explore open data [standards](http://www.w3.org/TR/dwbp/) ||
+explore existing [Serbia datasets](http://hakaton.rs/podaci-koji-su-trenutno-otvoreni/) ||
+explore existing [France datasets](http://www.data.gouv.fr/en/datasets/) ||
+explore existing [Serbia portal](http://opendata.rs) ||
+explore existing [France portal](http://www.data.gouv.fr) ||
+explore existing [Luxembourg portal](http://www.etat.public.lu/fr/index.php) ||
+create draft version of the portal ||
 
 # Backlog
 
-- __ portal __
+- __portal__
 
   - explore existing [Serbia portal](http://opendata.rs)
   - explore existing [France portal](http://www.data.gouv.fr)
@@ -22,7 +22,8 @@
     - https://github.com/opendatalu/udata-gouvlu
   - create draft version of the portal
 
-- __ platform __
+
+- __platform__
 
   - setup development server
     - https://github.com/etalab/udata-dockers
@@ -31,26 +32,26 @@
     - http://udata.readthedocs.org/en/latest/develop.html
 
 
-- __ dataset submission __
+- __dataset submission__
 
   - explore open data [standards](http://www.w3.org/TR/dwbp/)
   - explore existing [Serbia datasets](http://hakaton.rs/podaci-koji-su-trenutno-otvoreni/)
   - explore existing [France datasets](http://www.data.gouv.fr/en/datasets/)
 
 
-- __ data reuse via REST API __
+- __data reuse via REST API__
 
 
-- __ dataset download __
+- __dataset download__
 
 
-- __ data search __
+- __data search__
 
 
-- __ contributing organizations overview __
+- __contributing organizations overview__
 
 
-- __ reuses overview __
+- __reuses overview__
 
 
-- __ open data overview __
+- __open data overview__
