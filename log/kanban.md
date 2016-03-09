@@ -2,7 +2,7 @@
 
 To Do | In Progress | Done
 ------|-------------|-----
-setup development server @jdjak ||
+setup development server ||
 explore open data [standards](http://www.w3.org/TR/dwbp/) ||
 explore existing [Serbia datasets](http://hakaton.rs/podaci-koji-su-trenutno-otvoreni/) ||
 explore existing [France datasets](http://www.data.gouv.fr/en/datasets/) ||
