@@ -1,0 +1,36 @@
+server:
+   build: .
+   volumes:
+     - .:/workspace
+   working_dir: /workspace
+   #command: bash -c "virtualenv . && source bin/activate && pip install -r udata/requirements/develop.pip && cd udata && inv assets && udata init && udata licenses https://www.data.gouv.fr/api/1/datasets/licenses && tx pull && inv i18nc && honcho start"
+
+db:
+    image: mongo:2.6
+    command: mongod
+    volumes:
+      - ./data/db:/data/db
+    expose:
+      - "27017"
+    ports:
+    - "27017:27017"
+
+broker:
+    image: redis
+    volumes:
+      - ./data/broker:/data
+    expose:
+      - "6379"
+    ports:
+    - "6379:6379"
+
+search:
+    image: udata/elasticsearch
+    volumes:
+      - ./data/search/data:/usr/share/elasticsearch/data
+      - ./data/search/plugins:/usr/share/elasticsearch/plugins
+      # - ./logs:/data/log
+    expose:
+      - "9200"
+    ports:
+      - "9200:9200"
